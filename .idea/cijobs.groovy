@@ -12,7 +12,7 @@ folder(PROJECT_NAME+'/'+CIJOBS) {
   description(PROJECT_NAME + 'Project '+ CIJOBS +'Folder')
 }
 
-
+ 
 pipelineJob(PROJECT_NAME+'/'+CIJOBS+"/cart") {
   description('cart')
   definition {
